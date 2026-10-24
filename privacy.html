@@ -16,8 +16,8 @@
 <nav class="nav"><a href="index.html">처음으로 / Home</a><a href="support.html">문의 / Support</a><a href="delete.html">데이터 삭제 / Data deletion</a></nav>
 
 <section id="ko">
-<p>시행일: 2026년 10월 21일</p>
-<p>‘다람쥐 키우기 : 방치형 보안관 RPG’(이하 “게임”)의 개발자(이하 “개발자”)는 이용자의 개인정보를 소중히 다루며, 게임 운영에 꼭 필요한 정보만 처리합니다. 게임은 이름·전화번호·이메일 같은 정보를 직접 묻지 않으며, 회원 가입 없이 익명 계정으로 동작합니다.</p>
+<p>시행일: 2026년 10월 24일 (변경: Google·Apple 계정 연동 추가)</p>
+<p>‘다람쥐 키우기 : 방치형 보안관 RPG’(이하 “게임”)의 개발자(이하 “개발자”)는 이용자의 개인정보를 소중히 다루며, 게임 운영에 꼭 필요한 정보만 처리합니다. 게임은 이름·전화번호 같은 정보를 묻지 않으며, 회원 가입 없이 익명 계정으로 동작합니다. 이용자가 원할 때만 Google 또는 Apple 계정을 연동할 수 있습니다.</p>
 
 <h2>1. 처리하는 정보와 목적</h2>
 <table>
@@ -25,8 +25,9 @@
 <tbody>
 <tr><td>익명 계정 식별자 (게임이 자동으로 만드는 무작위 ID)</td><td>클라우드 저장, 우편·쿠폰 지급, 랭킹</td><td>삭제 요청 시 또는 마지막 접속 후 2년</td></tr>
 <tr><td>설치 식별자 (설치마다 만드는 무작위 값)</td><td>여러 기기 저장 충돌 확인</td><td>위와 같음</td></tr>
+<tr><td>연동한 Google·Apple 계정의 식별자와 이메일 (이용자가 연동한 경우. Apple은 ‘이메일 가리기’를 고르면 대신 받는 주소)</td><td>기기를 바꾸거나 앱을 지운 뒤 같은 계정으로 진행 되찾기</td><td>위와 같음 (연동을 지우거나 계정을 삭제하면 함께 삭제)</td></tr>
 <tr><td>닉네임 (이용자가 정한 경우)</td><td>랭킹 표시</td><td>위와 같음</td></tr>
-<tr><td>게임 진행 데이터 (재화·아이템·기록 등)</td><td>진행 저장·복구(클라우드 저장)</td><td>위와 같음 (이전 저장본은 최근 5개)</td></tr>
+<tr><td>게임 진행 데이터 (재화·아이템·기록 등)</td><td>진행 저장·복구 (서버에 자동 저장)</td><td>위와 같음 (이전 저장본은 최근 5개)</td></tr>
 <tr><td>랭킹 기록, 쿠폰 사용·우편 수령 기록</td><td>랭킹, 중복 지급 방지</td><td>위와 같음</td></tr>
 <tr><td>구매 기록 (주문 번호·상품·시각)</td><td>결제 확인, 상품 지급·복원, 환불 처리</td><td>관련 법령에 따른 기간 (전자상거래법: 대금 결제·재화 공급 기록 5년)</td></tr>
 </tbody>
@@ -42,6 +43,7 @@
 <thead><tr><th>받는 곳</th><th>위탁 업무</th><th>위치</th></tr></thead>
 <tbody>
 <tr><td>Supabase Inc.</td><td>서버·데이터베이스 운영 (계정, 클라우드 저장, 우편, 쿠폰, 랭킹)</td><td>대한민국(서울 리전)에 저장 · 회사 소재지 미국</td></tr>
+<tr><td>Google LLC (Google 로그인) / Apple Inc. (Apple로 로그인)</td><td>계정 연동 시 로그인 확인 (이용자가 연동한 경우만)</td><td>각 회사 데이터센터</td></tr>
 <tr><td>Google LLC (AdMob)</td><td>광고 제공·측정</td><td>미국 등 Google 데이터센터</td></tr>
 <tr><td>Google LLC (Google Play) / Apple Inc. (App Store)</td><td>앱 배포, 결제 처리</td><td>각 회사 데이터센터</td></tr>
 </tbody>
@@ -69,8 +71,8 @@
 
 <section id="en" lang="en">
 <h1>Privacy Policy</h1>
-<p>Effective date: October 21, 2026</p>
-<p>The developer of “Squirrel Sheriff: Idle Sheriff RPG” (the “Game”) processes only the information needed to run the Game. The Game does not ask for your name, phone number or email address, and works with an anonymous account created automatically — no sign-up required.</p>
+<p>Effective date: October 24, 2026 (updated: Google/Apple account linking)</p>
+<p>The developer of “Squirrel Sheriff: Idle Sheriff RPG” (the “Game”) processes only the information needed to run the Game. The Game does not ask for your name or phone number, and works with an anonymous account created automatically — no sign-up required. You can optionally link a Google or Apple account.</p>
 
 <h2>1. Information we process and why</h2>
 <table>
@@ -78,8 +80,9 @@
 <tbody>
 <tr><td>Anonymous account ID (random ID created by the Game)</td><td>Cloud save, mail and coupon rewards, leaderboards</td><td>Until you ask us to delete it, or 2 years after your last session</td></tr>
 <tr><td>Install ID (random value per install)</td><td>Detecting save conflicts between devices</td><td>Same as above</td></tr>
+<tr><td>ID and email of the Google/Apple account you link (only if you link one; with Apple “Hide My Email”, the relay address)</td><td>Recovering your progress on a new device or after reinstalling</td><td>Same as above (deleted when you delete your account)</td></tr>
 <tr><td>Nickname (if you set one)</td><td>Shown on leaderboards</td><td>Same as above</td></tr>
-<tr><td>Game progress (currencies, items, records)</td><td>Saving and restoring progress (cloud save)</td><td>Same as above (last 5 earlier saves)</td></tr>
+<tr><td>Game progress (currencies, items, records)</td><td>Saving and restoring progress (saved to the server automatically)</td><td>Same as above (last 5 earlier saves)</td></tr>
 <tr><td>Leaderboard records, coupon and mail history</td><td>Leaderboards, preventing duplicate rewards</td><td>Same as above</td></tr>
 <tr><td>Purchase records (order ID, product, time)</td><td>Verifying payments, delivering and restoring items, refunds</td><td>As required by law (e.g. 5 years under Korean e-commerce law)</td></tr>
 </tbody>
@@ -95,6 +98,7 @@
 <thead><tr><th>Provider</th><th>Service</th><th>Location</th></tr></thead>
 <tbody>
 <tr><td>Supabase Inc.</td><td>Server and database (accounts, cloud save, mail, coupons, leaderboards)</td><td>Stored in South Korea (Seoul region); company based in the USA</td></tr>
+<tr><td>Google LLC (Google Sign-In) / Apple Inc. (Sign in with Apple)</td><td>Verifying sign-in when you link an account (only if you do)</td><td>Their data centers</td></tr>
 <tr><td>Google LLC (AdMob)</td><td>Advertising</td><td>Google data centers (incl. USA)</td></tr>
 <tr><td>Google LLC (Google Play) / Apple Inc. (App Store)</td><td>Distribution and payments</td><td>Their data centers</td></tr>
 </tbody>
